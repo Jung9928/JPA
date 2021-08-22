@@ -14,5 +14,5 @@
 # JPA란?
 - Java Persistence API의 약자로, 자바 진영의 ORM 기술 표준이다.
 - 마치 객체를 Java의 Collection에 저장하듯이 간단하게 DB에 저장할 수 없을까? 라는 고민 끝에 등장하게되었다. **(ex : list.get(memberId); )**
-- 개발자가 객체와 DB 사이에서 Mapping하는 작업을 없앰으로써 생산성 향상!
+- 개발자가 객체와 DB 사이에서 Mapping하는 작업을 JPA가 대신 해줌으로써 생산성 향상!
 
