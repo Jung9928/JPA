@@ -29,3 +29,6 @@
 
 # JPA 동작 방식
 ![image](https://user-images.githubusercontent.com/45419456/130348386-b2071801-f6f8-4d5c-9daf-e67bbe474a50.png)
+- JPA는 어플리케이션과 JDBC 사이에서 Mapping 과정을 자동으로 수행해준다.
+즉, 개발자가 JPA를 사용하면 JPA 내부에서 JDBC API를 사용하여 SQL를 생성하고 호출하여 DB와 통신을 수행한다.
+- 개발자는 그냥 JPA 문법만 사용하면 되므로 편리하다.
