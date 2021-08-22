@@ -28,3 +28,4 @@
 
 
 # JPA 동작 방식
+![image](https://user-images.githubusercontent.com/45419456/130348386-b2071801-f6f8-4d5c-9daf-e67bbe474a50.png)
