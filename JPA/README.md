@@ -32,3 +32,15 @@
 - JPA는 어플리케이션과 JDBC 사이에서 Mapping 과정을 자동으로 수행해준다.
 즉, 개발자가 JPA를 사용하면 JPA 내부에서 JDBC API를 사용하여 SQL를 생성하고 호출하여 DB와 통신을 수행한다.
 - 개발자는 그냥 JPA 문법만 사용하면 되므로 편리하다.
+
+### 1) JPA 저장
+![image](https://user-images.githubusercontent.com/45419456/130348612-1f5fa9fb-c992-4003-9262-eecb33f31787.png)
+- 예를 들어, MemberDAO에서 Member 객체에 대한 데이터를 DB에 저장하고 싶다면 개발자는 아래처럼 코드를 작성하면 된다.
+```Java
+EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence-unit name 속성명");
+EntityManager em = emf.createEntityManager();
+
+Member member = new Member();
+....
+em.persist(member);   // ---> 이 문장이 핵심이다. 단 1줄로 DB에 객체를 저장할 수 있다.
+```
