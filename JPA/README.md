@@ -65,6 +65,6 @@ Member findMember = em.find(Member.class, db의 PK);  // member 객체 조회
 - 이와 같이 JPA가 개발자를 대신해서 쿼리를 생성해주기 때문에 Object와 RDB 간의 패러다임 불일치를 해결할 수 있는게 장점이다.  
 
 
-* # JPA를 왜 사용해야 할까?
+# JPA를 왜 사용해야 할까?
 1) SQL 중심의 개발에서 객체 중심으로의 개발
 
