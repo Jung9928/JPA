@@ -66,5 +66,32 @@ Member findMember = em.find(Member.class, db의 PK);  // member 객체 조회
 
 
 # JPA를 왜 사용해야 할까?
-1) SQL 중심의 개발에서 객체 중심으로의 개발
+1) SQL 중심의 개발에서 객체 중심으로의 개발이 가능해진다.
+2) Java Collection에 데이터를 삽입/삭제하는 것처럼 간단하게 사용가능 함으로써 개발 생산성이 향상.
+```Java
+EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence-unit name 속성명");
+EntityManager em = emf.createEntityManager();
+
+....
+
+em.persist(member);                                 // 저장
+Member member = em.find(Member.class, db의 PK);     // 조회
+em.setName("변경할 이름");                           // 수정
+em.remove(member);                                  // 삭제
+```
+수정의 경우, JPA가 자동으로 UPDATE SQL Query를 생성하여 DB에 전달하게 되므로 사용이 편하다.
+
+3) 유지보수가 편리하다.
+* 기존의 방식 : 필드 변경 시, 관련된 SQL을 모두 수정해야 함.
+* JPA : 필드만 추가하면 끝 --> JPA가 SQL 처리를 전담함.
+
+4) Object와 RDB간의 패러다임 불일치 해결
+
+5)JPA의 성능 최적화 기능
+
+6) 지연로딩(Lazy Loading)
+
+7) 데이터 접근 추상화와 벤더 독립성
+8) 표준
+
 
