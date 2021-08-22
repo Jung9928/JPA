@@ -87,7 +87,7 @@ em.remove(member);                                  // 삭제
 
 4) Object와 RDB간의 패러다임 불일치 해결
 
-5)JPA의 성능 최적화 기능
+5) JPA의 성능 최적화 기능
 
 6) 지연로딩(Lazy Loading)
 
