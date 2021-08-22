@@ -5,7 +5,7 @@
 
 
 ## 목차
-[1. ORM 이란??](#https://github.com/Jung9928/JPA/blob/master/JPA/README.md)
+[1. ORM 이란??]<https://github.com/Jung9928/JPA/blob/master/JPA/README.md>
 2. JPA 란??
 3. JPA를 사용해야 하는 이유
 4. JPA 동작 과정
