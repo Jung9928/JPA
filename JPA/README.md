@@ -21,7 +21,10 @@
 - 개발자가 객체와 DB 사이에서 Mapping하는 작업을 JPA가 대신 해줌으로써 생산성 향상!
 
 ![image](https://user-images.githubusercontent.com/45419456/130347285-0aaf2559-0ec0-42d9-b720-1c2b54ca46d8.png)
+- 위 그림은 JPA 2.1 표준 명세이며, JPA는 인터페이스의 모음이다. 
+- JPA 2.1 표준 명세를 구현한 3가지 구현체가 Hibernate, EclipseLink, DataNucleus이며, JPA 인터페이스를 구현한 대표적인 오픈소스가 Hibernate이다.
 
+- 버전은 2006년 1.0버전부터 시작해서 2013년 2.1버전이 출시되며 "스토어드 프로시저 접근", "컨버터", "엔티티 그래프" 기능이 추가됨으로써 2.1 버전 이후 부터 많이 사용되고 있다.
 
 
 # JPA 동작 방식
