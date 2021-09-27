@@ -79,11 +79,11 @@ Member member = em.find(Member.class, db의 PK);     // 조회
 em.setName("변경할 이름");                           // 수정
 em.remove(member);                                  // 삭제
 ```
-(수정의 경우, JPA가 자동으로 UPDATE SQL Query를 생성하여 DB에 전달하게 되므로 사용이 편하다.) <br/><br/><br/><br/>
+(수정의 경우, JPA가 자동으로 UPDATE SQL Query를 생성하여 DB에 전달하게 되므로 사용이 편하다.)
 
 #### 3) 유지보수가 편리하다.
 * 기존의 방식 : 필드 변경 시, 관련된 SQL을 모두 수정해야 함.
-* JPA : 필드만 추가하면 끝 --> JPA가 SQL 처리를 전담함. <br/><br/><br/><br/>
+* JPA : 필드만 추가하면 끝 --> JPA가 SQL 처리를 전담함. 
 
 #### 4) Object와 RDB간의 패러다임 불일치 해결
 
