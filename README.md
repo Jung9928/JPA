@@ -1,4 +1,4 @@
-# JPA 학습 내용 정리
+# JPA 내용 정리
 - 참고 : https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
 -----
 
